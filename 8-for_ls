@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Lists files without prefix numbers
+
+for file in *-*; do
+  echo "${file#*-}"
+done
+
